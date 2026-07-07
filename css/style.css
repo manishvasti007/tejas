@@ -2,7 +2,7 @@
    Global Styles & Variables
    =========================== */
 :root {
-    --primary-color: #1e3a8a;
+    --primary-color: #04070f;
     --secondary-color: #0369a1;
     --accent-color: #f59e0b;
     --text-dark: #1f2937;
@@ -132,11 +132,8 @@ body {
    Hero Section
    =========================== */
 .hero {
-    background: linear-gradient(135deg, rgba(30, 58, 138, 0.9) 0%, rgba(3, 105, 161, 0.9) 100%),
-                url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><rect fill="%231e3a8a" width="1200" height="600"/></svg>');
-    background-size: cover;
     background-position: center;
-    color: white;
+    color: rgb(216, 11, 11);
     padding: 120px 2rem 80px;
     text-align: center;
     min-height: 600px;
